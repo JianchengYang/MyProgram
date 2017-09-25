@@ -11,7 +11,7 @@ int Delta_S_Line(S_Line_Fix_Type *S_Line_Fix,POSE_DECARE_Type* Decare_Point,S_Li
 	unsigned int cnt2 = 0;      //用于数组计数的变量
 	unsigned int cnt3 = 0;      //用于数组计数的变量
 	unsigned int cnt4 = 0;      //用于数组计数的变量
-	double t_cnt = 0.01;        //插补值
+	double t_cnt = 0.005;        //插补值
 	double L = 0.0;				//最长位移长度
 	double Amax = 0.0;			//最长位移长度轴的加速度
 	double Vs = 0.0;			//最长位移长度轴的起始速度
