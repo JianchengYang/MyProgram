@@ -16,7 +16,7 @@
 
 int main(void) {
     S_Line_Fix.limit_rate=0.95;
-    S_Line_Fix.speed_rate=0.05;
+    S_Line_Fix.speed_rate=0.1;
 
     Decare_Point.x_now=44.46;
     Decare_Point.y_now=15.57;
